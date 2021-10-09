@@ -1,0 +1,241 @@
+body {
+    margin: 0px;
+    padding: opx;
+}
+.section {
+    background-image:  url(all/her0_bg.jpg);
+    padding: 140px 0px;
+    background-size: cover;
+    opacity: 1.0;
+    background-color: black !important;
+    background-attachment: fixed;
+    transition: all 2s;
+}
+.section :hover {
+    transform: scale(1.0);
+}
+.section1 {
+    margin: 0;
+}
+.card {
+    transition: all 2s;
+}
+.card:hover {
+    transform:scale(0.7);
+}
+.group {
+    transition: all 1s;
+}
+.group:hover {
+    transform:scale(1.1);
+}
+.image-responsive {
+    transition: all 1s;
+}
+.image-responsive:hover {
+    transform:scale(1.1);
+}
+.special {
+    border: 2px solid blue;
+}
+.card-body {
+    color: #666666;
+}
+
+.card-text {
+    font-family: sans-serif;
+}
+
+.talk {
+    padding-right: 12px;
+    background-color: cadetblue;
+}
+.welcome {
+    font-size: 59px;
+}
+
+.narrow {
+    border: 4px solid #03C4EB;
+    width: 8%;
+    margin-left: 590px;
+    margin-bottom: 22px; 
+    margin-top: 14px;
+}
+.us {
+    font-size: 39px;
+    font-weight: 700;
+}
+.nav-link {
+    color: black;
+}
+.link {
+    background: #03C4EB;
+    padding: 10px 24px;
+   text-decoration: none;
+   color: white; 
+}
+ .link:hover {
+     color: white;
+ }
+.section12 {
+    padding: 98px 0px;
+}
+.internal {
+    background-color: black;
+}
+.navbar {
+    padding: 45px 0px;
+}
+.section4 {
+    padding: 12px 0px;
+    background-color: black;
+}
+.right {
+    margin-left: 309px;
+}
+.right li {
+    padding: 0px 9px;
+   
+ }
+.right a {
+    color: white;
+    text-transform: capitalize;
+    font-family: "Raleway", sans-serif;
+}
+.right a:hover {
+    color: #03C4EB;
+}
+.speed {
+ padding: 7px 10px;
+ background-color: #03C4EB;
+ color: white;
+}
+.speed :hover {
+border: 2px solid white;
+color: white;
+}
+.underline  {
+    border-bottom: 7px solid #03C4EB;
+    width: 12%;
+    margin-left: 580px;
+}
+.team {
+    font-size: 34px;
+    
+}
+.between {
+    margin-left: 586px;
+    border-bottom: 8px solid #03C4EB;
+    width: 10%;
+    margin-bottom: 13px;
+    color:#666666;
+}
+.sed {
+    color: #666666;
+}
+.section3{
+    margin-top: 34px;
+}
+.about h3 {
+    font-size: 48px;
+    color: black;
+}
+.desperate p {
+    color:  #666666;
+}
+.section4{
+    background: white;
+    margin-top: 43px;
+}
+.our h3 {
+    font-size: 33px;
+    color: black;
+    text-transform: uppercase;
+}
+.soft  {
+    color: #666666;
+    margin-left: 82px; 
+}
+.soft a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+.left {
+    background-color:#03C4EB;
+    border-radius: 50%;
+    font-size:51px;
+    width: 72px;
+    height: 54px;
+    margin-right: 15px;
+    float: left;
+    color: white;
+
+}
+.natural {
+    background-color: #000000f7;
+}
+.up {
+    margin-top: -43px;
+}
+.section8 {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(all/subscribe-bg.jpg);
+    padding:56px 0px;
+} 
+.sprng:hover {
+     background-color:#03C4EB ;
+     color: white;
+}
+.list li {
+        list-style-type: none;
+        display:inline-block;
+        font-size: 17px;
+        padding: 0px 8px;
+        font-family: arial black;
+        color: #666666;
+}
+.list li:hover {
+    color:#03C4EB ;
+}
+.all {
+    color: #03C4EB;
+}
+.under {
+    border-bottom: 7px solid #03C4EB;
+    width: 9%;
+    margin-left:670px;
+    margin-bottom: 14px;
+}
+.Testimonial {
+    font-size: 32px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.proin {
+    color:#666666;
+    margin-left: -90px;
+}
+.step {
+    color:#666666;
+    font-family: "Open Sans", sans-serif;
+}
+.special {
+    background-color: #f6f6f6;
+    border: none;
+}
+.ut {
+    background-color: white;
+    padding:14px 0px;
+    padding-left: 34px;
+}
+.saul {
+    color:#03C4EB;
+    font-size: 25px;
+    margin-bottom: 7px;
+}
