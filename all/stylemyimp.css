@@ -17,6 +17,12 @@ body {
 .section1 {
     margin: 0;
 }
+.img-responsive:hover {
+    transform:scale();
+}
+.img-responsive:hover {
+    transition: 2s;
+}
 .card {
     transition: all 2s;
 }
@@ -37,6 +43,10 @@ body {
 }
 .special {
     border: 2px solid blue;
+}
+.okay {
+    font-size: 25px;
+    font-weight: bold;
 }
 .card-body {
     color: #666666;
@@ -116,12 +126,28 @@ color: white;
 }
 .underline  {
     border-bottom: 7px solid #03C4EB;
-    width: 12%;
-    margin-left: 580px;
+    width: 7%;
+    margin-left: 605px;
 }
 .team {
-    font-size: 34px;
-    
+    font-size: 54px;
+    font-weight: bold;   
+}
+.under {
+    margin-left: 2px;
+    width: 20%;
+    border-bottom: 7px solid #03C4EB;
+}
+.tutor {
+    margin-left: 489px;
+    width: 15%;
+    border-bottom: 7px solid #03C4EB;
+}
+.underscore {
+    margin-left:680px;
+    border-bottom: 8px solid #03C4EB;
+    width: 89px;
+    margin-bottom: 12px;
 }
 .between {
     margin-left: 586px;
@@ -220,10 +246,12 @@ color: white;
 .proin {
     color:#666666;
     margin-left: -90px;
+    font-size:30px;
 }
 .step {
     color:#666666;
     font-family: "Open Sans", sans-serif;
+    font-size:30px;
 }
 .special {
     background-color: #f6f6f6;
@@ -236,6 +264,6 @@ color: white;
 }
 .saul {
     color:#03C4EB;
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 7px;
 }
