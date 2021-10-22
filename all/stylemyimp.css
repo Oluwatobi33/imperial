@@ -245,13 +245,16 @@ color: white;
 }
 .proin {
     color:#666666;
-    margin-left: -90px;
-    font-size:30px;
+    /* margin-left: -90px; */
+    font-size:21px;
 }
 .step {
     color:#666666;
     font-family: "Open Sans", sans-serif;
-    font-size:30px;
+    font-size:21px;
+}
+.sst {
+    
 }
 .special {
     background-color: #f6f6f6;
@@ -260,7 +263,8 @@ color: white;
 .ut {
     background-color: white;
     padding:14px 0px;
-    padding-left: 34px;
+    margin-left: -63px;
+    margin-bottom: 20px;
 }
 .saul {
     color:#03C4EB;
