@@ -148,9 +148,8 @@ color: white;
     margin-bottom: 12px;
 }
 .between {
-    margin-left: 586px;
     border-bottom: 8px solid #03C4EB;
-    width: 10%;
+    width: 100%;
     margin-bottom: 13px;
     color:#666666;
 }
@@ -198,6 +197,7 @@ color: white;
     color: white;
 
 }
+
 .natural {
     background-color: #000000f7;
 }
