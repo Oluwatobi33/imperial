@@ -1,6 +1,7 @@
 body {
     margin: 0px;
-    padding: opx;
+    padding: 0px;
+    font-family: sans-serif;
 }
 .section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url(../all/hero-bg.jpg);
@@ -9,6 +10,7 @@ body {
     opacity: 1.0;
     background-attachment: fixed;
     transition: all 2s;
+    background-position: relative;
 }
 .section :hover {
     transform: scale(1.0);
@@ -37,6 +39,7 @@ body {
 .image-responsive {
     transition: all 1s;
 }
+
 .image-responsive:hover {
     transform:scale(1.1);
 }
@@ -113,17 +116,11 @@ body {
 .right a:hover {
     color: #03C4EB;
 }
-.speed {
- padding: 7px 10px;
- background-color: #03C4EB;
- color: white;
-}
-.speed :hover {
-border: 2px solid white;
-color: white;
-}
+
+
 .underline  {
     border-bottom: 7px solid #03C4EB;
+    width: 56px;
     
  
 }
@@ -204,8 +201,21 @@ color: white;
 .up {
     margin-top: -43px;
 }
+@media screen and (min-width:400px) {
+    .content h1 {
+        font-size: 4vw;
+    }
+    .content h3 {
+        font-size: 8vw;
+    }
+    .aa {
+        width: 50vw;
+    }
+    
+}
+
 .section8 {
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(all/subscribe-bg.jpg);
     padding:56px 0px;
@@ -221,6 +231,9 @@ color: white;
         padding: 0px 8px;
         font-family: arial black;
         color: #666666;
+}
+.team  p{
+font-size: 19px;
 }
 .list li:hover {
     color:#03C4EB ;
